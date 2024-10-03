@@ -1,48 +1,98 @@
-# 🎮 Tic Tac Toe
+# Tic Tac Toe
 
-![Tic Tac Toe Game](assets/screenshot.png) 
+## Overview
 
-## 🌟 Overview
+Tic Tac Toe is a classic two-player game that involves strategically placing Xs and Os on a 3x3 grid. The objective is to be the first player to align three of their symbols either horizontally, vertically, or diagonally. This project is designed to allow users to play the game against each other or against an AI opponent.
+<br><br>
 
-Welcome to the **Tic Tac Toe** game, a classic game brought to life with Python's Tkinter library! Play against a friend or challenge yourself with an AI opponent. Enjoy the game in a beautifully designed interface that centers on user experience!
+## Features
+- **Two Game Modes**: Play against another player or against an AI opponent.
+- **Game Board**: A simple 3x3 grid interface for placing your marks.
+- **AI Difficulty Levels**: Choose between different difficulty levels for the AI opponent.
+- **Reset Game Option**: Easily reset the game to start a new match.
+<br>
 
-## 🛠 Features
+## How to Use
 
-- **Single Player Mode**: Compete against a computer using the Minimax algorithm
-- **Multiplayer Mode**: Play with a friend on the same device
-- **Restart Functionality**: Easily restart the game at any time
-- **Win Detection**: The game detects wins and draws with clear notifications
-  
-## 📥 Requirements
-- Python 3.x
-- Tkinter (included with standard Python installations)
+1. **Download the Latest Release**
+   - Visit the [Releases](https://github.com/Basharul2002/TicTacToe/releases) section.
+   - Click on the latest release to download the exe file.<br>
+      ![Download](Assets/Download.png)
 
-## 🚀 How to Run
+3. **Run the Setup**
+   - Open the extracted folder and double-click on `setup.exe`.<br>
+      ![Setup](Assets/Setup.png)
 
-1. **Clone the repository** to your local machine:
-```bash
-git clone https://github.com/basharul2002/tic-tac-toe.git
-```
+4. **Follow the Setup Process**
+   - Proceed through the setup steps as shown below:<br>
+      ![Setup1](Assets/Setup_1.png)<br><br>
+      ![Setup2](Assets/Setup_2.png)<br><br>
+      ![Setup3](Assets/Setup_3.png)<br><br>
 
-2. Navigate to the project directory:
-```bash
-cd tic-tac-toe
-```
+5. **Open the Program**
+   - Once the setup is complete, open the program from the installation directory.<br>
+      ![Open](Assets/Open_exe.png)
 
-3. Run the application:
-```bash
-python tic_tac_toe.py
-```
+6. **Choose Game Mode**
+   - In the program, select whether to play against another player or the AI from the main menu.<br>
+      ![GameMode](Assets/GameMode.png)
 
-## 📖 Code Explanation
-- **Main Window:** The game window is centered on the screen and consists of frames for the title, game options, and the Tic Tac Toe board
-- **Game Logic:** Utilizes a dictionary to manage the board state with functions to check for wins, draws, and to alternate player turns
-- **Minimax Algorithm:** This algorithm empowers the AI with the ability to make optimal decisions in single-player mode
+7. **Select AI Difficulty (if applicable)**
+   - If playing against the AI, choose your desired difficulty level.<br>
+      ![AIDifficulty](Assets/AIDifficulty.png)
 
+8. **Start Playing**
+   - Click on the cells in the grid to place your X or O and try to win the game!<br>
+      ![GameBoard](Assets/GameBoard.png)
 
-## 📄 License
-This project is licensed under the **MIT License** - see the LICENSE file for details.
+9. **Reset the Game**
+   - After a game ends, you can click the 'Reset' button to start a new game.<br>
+      ![Reset](Assets/Reset.png)
 
-## 🙏 Acknowledgments
-- Inspired by the classic Tic Tac Toe gameplay.
-- Special thanks to the open-source community for providing invaluable guidance and resources.
+By following these steps, you will be able to set up and play Tic Tac Toe with ease. Enjoy!
+<br> <br>
+
+## Installation
+
+To install the Tic Tac Toe game, follow these steps:
+
+1. **Download the Application**
+   - Navigate to the [Releases](https://github.com/Basharul2002/TicTacToe/releases) section.
+   - Download the latest version of the software.
+
+2. **Allow Download**
+   - Check your downloads section.<br>
+     ![Warning1](Assets/Warning1.png) <br>
+     
+   - If security blocks the download, click **'Download Anyway'** to proceed.<br>
+     ![Warning2](Assets/Warning2.png)
+     
+3. **Run the Installer**
+   - After downloading, double-click the software file to begin the installation process.
+
+4. **Handle Security Prompts**
+   - If a security prompt appears, click on **"More Info"** to view additional options.
+     ![SecurityPrompts1](Assets/SecurityPrompts1.jpg)
+   - Then, click on **"Run Anyway"** to proceed with the installation.
+     ![SecurityPrompts2](Assets/SecurityPrompts2.jpg)
+
+5. **Follow On-Screen Instructions**
+   - Follow the on-screen instructions to complete the installation.
+
+Once installed, you can run the Tic Tac Toe game from your desktop or start menu.
+<br> <br>
+
+## License
+
+Distributed under the **MIT license**. See [`LICENSE`](https://github.com/Basharul2002/TicTacToe/blob/main/LICENSE) for more information.
+<br><br>
+
+## Contact
+
+For any issues or inquiries, feel free to reach out to me at [basharulalam6@gmail.com](mailto:basharulalam6@gmail.com) or visit my [website](https://basharul2002.github.io/).
+<br> <br>
+
+## Run in Gitpod
+
+You can also run the Tic Tac Toe project in Gitpod, a free online dev environment for GitHub:
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Basharul2002/TicTacToe/blob/master/TicTacToe.sln) 
